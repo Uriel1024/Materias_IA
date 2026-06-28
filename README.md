@@ -1,9 +1,9 @@
-#Materias de la carrera *Ingeniería en Inteligencia Artificial*
+# Materias de la carrera *Ingeniería en Inteligencia Artificial*
 
 
-###Todas las chingaderas que hice en la carrera 👍
+### Todas las chingaderas que hice en la carrera 👍
 
-####*Importante*
+#### *Importante*
 
 Depende del profesor las prácticas pueden cambiar y existen LLM's que probablemente hagan un mejor trabajo, este repo es 
 únicamente con fines de crear un portafolio individual.
