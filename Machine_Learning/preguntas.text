@@ -1,0 +1,63 @@
+1. **Soy el “objetivo” que el modelo intenta predecir.** No soy atributo; soy…
+   — *¿Qué soy?*
+   target 
+
+2. **Cuantos más parámetros me agregas, más te gusto al inicio;** pero en datos nuevos te traiciono.
+   — *¿Qué problema soy?*
+   Overfitting 
+
+3. **No me entrenas con etiquetas; aun así agrupo sin preguntar.**
+   — *¿Qué tipo de aprendizaje soy?*
+aprendizaje no supervisado
+
+4. **Soy una recta, a veces con regularización,** y minimizo errores al cuadrado.
+   — *¿Qué modelo soy?*
+   regresion lineal
+
+5. **Cuando me mueves paso a pasito por la pendiente,** busco un mínimo de la función de pérdida.
+   — *¿Qué proceso soy?*
+   descenso de gradiente
+
+6. **Prefiero tener razón con los positivos;** si me subes, detecto más, pero me equivoco más.
+   — *¿Qué umbral ajustas? ¿sobre qué puntaje?*
+
+   umbral de desicion
+
+7. **Mi matriz tiene cuatro casillas:** TP, TN, FP y FN.
+   — *¿Cómo me llamo?*
+   matriz de confusión
+
+8. **Castigo los pesos grandes para que no te excedas;** a veces te dejo en cero.
+   — *¿Qué técnicas soy? (nómbrame en singular o plural)*
+   
+   lasso y ridge
+
+9. **No entreno pesos; memorizo ejemplos y voto por los vecinos.**
+   — *¿Qué algoritmo soy?*
+   KNN
+
+10. **Combino muchos débiles para volverme fuerte,** a veces en paralelo, a veces en secuencia.
+    — *¿Qué familia de técnicas soy? (dos sabores)*
+    métodos de ensamble 
+
+11. **Cuando el conjunto de atributos crece sin control,** las distancias se vuelven raras y la intuición falla.
+    — *¿Qué fenómeno es?*
+    maldición de dimensionalidad
+
+
+
+12. **Mi curva sube cuanto mejor separo clases a todos los umbrales;** el área bajo mí es oro.
+    — *¿Qué curva soy?*
+      curva ROC
+
+13. **Te ayudo a elegir hiperparámetros sin hacer trampa,** dividiendo y rotando los datos.
+    — *¿Qué procedimiento soy?*
+    Cross validation 
+
+14. **Si uso información del test durante el entrenamiento,** arruino la evaluación.
+    — *¿Qué problema cometí?*
+    Fuga de datos 
+
+15. **Proyeco a menos dimensiones maximizando varianza,** sin usar etiquetas.
+    — *¿Qué técnica soy?*
+    PCA|

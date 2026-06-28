@@ -1,0 +1,117 @@
+function clasificador_interactivo()
+    % Tabla de verdad completa
+    tabla_verdad = [
+        %clases de colores
+        0, 0, 0, 1;   % Negro
+        1, 0, 0, 1;   % Rojo
+        0, 1, 0, 1;   % Verde
+        0, 0, 1, 1;   % Azul
+        % clase 2, mezclas de colroes
+        1, 1, 0, 2;   % Amarillo
+        1, 0, 1, 2;   % Magenta
+        0, 1, 1, 2;   % Cyan
+        1, 1, 1, 2;   % Blanco
+        % Clase en escala de grises
+        0.25, 0.25, 0.25, 3;
+        0.5, 0.5, 0.5, 3;
+        0.75, 0.75, 0.75, 3;
+    ];
+    fprintf('Tabla de Verdad RGB:\n');
+    fprintf('N°  Rojo  Verde  Azul  Clase  Descripción\n');
+    fprintf('----------------------------------------\n');
+    descripciones = {'Negro', 'Rojo', 'Verde', 'Azul', 'Amarillo', 'Magenta', 'Cyan', 'Blanco', ...
+                    'Gris Oscuro', 'Gris Medio', 'Gris Claro'};
+    for i = 1:size(tabla_verdad, 1)
+        fprintf('%-3d %-5.2f %-6.2f %-5.2f %-6d %s\n', i, tabla_verdad(i, 1), ...
+                tabla_verdad(i, 2), tabla_verdad(i, 3), tabla_verdad(i, 4), descripciones{i});
+    end
+    fprintf('\n');
+    % Solicitar valores RGB al usuario
+    fprintf('Ingrese valores RGB (0-1):\n');
+    r = input('Rojo: ');
+    g = input('Verde: ');
+    b = input('Azul: ');
+    vector = [r, g, b];
+    if any(vector < 0) || any(vector > 1)
+        fprintf('\nResultado:\n');
+        fprintf('Vector [%.2f, %.2f, %.2f] está fuera del cubo RGB (0-1)\n', vector(1), vector(2), vector(3));
+        fprintf('No pertenece a ninguna clase\n');
+        visualizar_clasificacion(tabla_verdad, vector, -1); % Usamos -1 para indicar fuera del cubo
+        return;
+    end
+    % Clasificar usando Distancia de Mahalanobis
+    [clase, distancia] = clasificar_mahalanobis(vector, tabla_verdad);
+    fprintf('\nMétodo: Distancia de Mahalanobis\n');
+    fprintf('Distancia mínima: %.4f\n', distancia);
+    % Mostrar resultados
+    fprintf('\nResultado:\n');
+    fprintf('Vector [%.2f, %.2f, %.2f]\n', vector(1), vector(2), vector(3));
+    fprintf('Clase: %d\n', clase);
+    visualizar_clasificacion(tabla_verdad, vector, clase);
+end
+
+% La función clasificar_mahalanobis permanece igual
+function [clase, min_distancia] = clasificar_mahalanobis(vector, tabla_verdad)
+    % Casos especiales
+    if isequal(vector, [1, 0, 0]) || isequal(vector, [0, 1, 0]) || isequal(vector, [0, 0, 1])
+        clase = 1; min_distancia = 0; return;
+    elseif vector(1) == vector(2) && vector(2) == vector(3)
+        clase = 3; min_distancia = 0; return;
+    end
+    % Separar por clases
+    clases = unique(tabla_verdad(:,4));
+    distancias = zeros(length(clases), 1);
+    for c = 1:length(clases)
+        puntos_clase = tabla_verdad(tabla_verdad(:,4) == clases(c), 1:3);
+        media = mean(puntos_clase);
+        cov_mat = cov(puntos_clase) + eye(3)*0.001; % Regularización
+        diff = vector - media;
+        distancias(c) = sqrt(diff * inv(cov_mat) * diff');
+    end
+    [min_distancia, idx] = min(distancias);
+    clase = clases(idx);
+end
+
+% 🔑 Función visualizar_clasificacion modificada
+function visualizar_clasificacion(tabla_verdad, vector, clase)
+    figure;
+    hold on;
+    grid on;
+
+    % 💡 Definir UN color para cada clase (índices 1, 2, y 3)
+    % Se define un cell array donde el índice del color corresponde al número de clase
+    % Colores elegidos:
+    % Clase 1 (Colores Puros/Básicos): Azul ('b')
+    % Clase 2 (Mezclas): Rojo ('r')
+    % Clase 3 (Escala de Grises): Negro ('k')
+    colores_clases = {' ', 'b', 'r', 'k'}; % El primer elemento no se usa, ya que las clases comienzan en 1
+
+    % Graficar puntos de referencia
+    for i = 1:size(tabla_verdad, 1)
+        clase_punto = tabla_verdad(i, 4); % Obtener la clase del punto actual
+        color_a_usar = colores_clases{clase_punto}; % 🎯 Usar el color asignado a esa clase
+
+        scatter3(tabla_verdad(i,1), tabla_verdad(i,2), tabla_verdad(i,3), ...
+                100, color_a_usar, 'filled'); % Graficar con el color de la clase
+    end
+
+    % Graficar vector de usuario
+    if clase == -1
+        % Vector fuera del cubo
+        scatter3(vector(1), vector(2), vector(3), 150, 'm', 'x', 'LineWidth', 2); % Color magenta (m) para "fuera"
+    else
+        % Vector dentro del cubo
+        scatter3(vector(1), vector(2), vector(3), 150, 'g', 'p', 'filled'); % Color verde (g) para el vector clasificado
+    end
+
+    xlabel('Rojo'); ylabel('Verde'); zlabel('Azul');
+    if clase == -1
+        title('Vector fuera del cubo RGB - No pertenece a ninguna clase');
+    else
+        title(sprintf('Clasificación: Clase %d (Mahalanobis)', clase));
+    end
+
+    axis([0 1 0 1 0 1]);
+    view(3);
+    hold off;
+end

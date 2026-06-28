@@ -1,0 +1,22 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: main.pin
+
+This file was created on 12/18/2024 at 10:04:46 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+a(0) in <> Enabled Normal 1 <> [User] 
+a(1) in <> Enabled Normal 2 <> [User] 
+a(2) in <> Enabled Normal 3 <> [User] 
+a(3) in <> Enabled Normal 4 <> [User] 
+b(0) in <> Enabled Normal 5 <> [User] 
+b(1) in <> Enabled Normal 6 <> [User] 
+b(2) in <> Enabled Normal 7 <> [User] 
+b(3) in <> Enabled Normal 8 <> [User] 
+op in <> Enabled Normal 9 <> [User] 
+c1 in <> Enabled Normal 10 <> [Auto] 
+s(0) out <> Enabled Normal 14 <> [User] 
+s(1) out <> Enabled Normal 15 <> [User] 
+s(2) out <> Enabled Normal 16 <> [User] 
+s(3) out <> Enabled Normal 17 <> [User] 
+cout out <> Enabled Normal 18 <> [User] 
+sel out <> Enabled Normal 19 <> [User] 

@@ -1,0 +1,10 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC7/I6">gw1nr9c-019</Device>
+    <FileList>
+        <File path="src/p8.vhd" type="file.vhdl" enable="1"/>
+    </FileList>
+</Project>

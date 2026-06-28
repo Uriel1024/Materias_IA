@@ -1,0 +1,15 @@
+-d /home/uriel/DSD/DSDZZZ/practica4/impl/gwsynthesis/practica4.vg
+-p GW1NR-9C-QFN88P-7
+-pn GW1NR-LV9QN88PC7/I6
+-cfg /home/uriel/DSD/DSDZZZ/practica4/impl/pnr/device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-place_option 0
+-route_option 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

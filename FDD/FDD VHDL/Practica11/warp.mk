@@ -1,0 +1,1 @@
+-m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-25pc/pi -a MUX_8-1.vhd -b P11.vhd -u P11.hie 

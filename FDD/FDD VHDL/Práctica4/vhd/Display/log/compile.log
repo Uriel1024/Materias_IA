@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\users\uriel\Documents\FDD VHDL\Display\vhd\Display.vhd
+ Compile Entity "display"
+ Compile Architecture "DSMB" of Entity "display"
+ Top-Level unit detected
+ Entity  =>   display
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

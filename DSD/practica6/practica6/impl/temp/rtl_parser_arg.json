@@ -1,0 +1,18 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Library" : "work",
+   "Path" : "C:/Users/mauri/Desktop/Tercer_semestre/DSD/PracticasDSD/practica6/practica6/src/p6.vhd",
+   "Type" : "vhdl"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/mauri/Desktop/Tercer_semestre/DSD/PracticasDSD/practica6/practica6/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

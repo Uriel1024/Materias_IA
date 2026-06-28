@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="parity_detector_mealy" Register="39" Alu="31" Lut="17" T_Register="39(39)" T_Alu="31(31)" T_Lut="17(17)"/>

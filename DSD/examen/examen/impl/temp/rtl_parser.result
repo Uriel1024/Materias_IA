@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "/home/uriel/dsd/DSDZZZ/examen/examen/src/exam.vhd",
+  "InstLine" : 5,
+  "InstName" : "parity_detector_mealy",
+  "ModuleFile" : "/home/uriel/dsd/DSDZZZ/examen/examen/src/exam.vhd",
+  "ModuleLine" : 5,
+  "ModuleName" : "parity_detector_mealy"
+ }
+]

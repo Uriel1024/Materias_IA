@@ -1,0 +1,2 @@
+main.vhd #Entity sum_res 4
+main.vhd #Architecture asum_res sum_res 20

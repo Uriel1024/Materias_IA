@@ -1,0 +1,17 @@
+[General]
+CurrentVersion=102
+[OPENDOC|OUTPUT.IGENERIC||]
+CmdLine=
+[OPENDOC|AVHDLEXTENSION.GENERIC||]
+CmdLine=
+[OPENDOC|HELPREF.GENERIC||]
+CmdLine=
+[OPENDOC|PROJECT.KGENERICC|C:\users\uriel\Documents\FDD VHDL\Display\vhd\Display\Display.adf|]
+CmdLine=
+Path=
+[OPENDOC|STIMMAN.STIMMANAGER||]
+CmdLine=
+[OPENDOC|VSIM.SHELL||]
+CmdLine=
+[OPENDOC|SCRIPTENGINE.GENERIC||]
+CmdLine=

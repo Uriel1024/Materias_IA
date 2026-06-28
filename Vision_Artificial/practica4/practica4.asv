@@ -1,0 +1,58 @@
+clc % limpia pantalla
+clear all  %limpia todo
+close all % cierra todo
+warning off all % apaga los molestos warnings
+
+disp(' hola mundo')
+ 
+%% PROGRAMA QUE DADO UN CLASIFICADOR CON 8 CLASES TOMA UNA DECISIÓN
+% TOMANDO COMO CRITERIO DE DECISIÓN A LA DISTANCIA EUCLIDEANA
+
+% DEFINIENDO LAS CLASES
+
+c1= randi([1,3],2,5)
+c2= randi([3,6],2,5)
+c3= randi([6,9],2,5)
+c4= randi([9,12],2,5)
+c5= randi([12,15],2,5)
+c6= randi([15,18],2,5)
+c7= randi([18,21],2,5)
+c8= randi([21,24],2,5)
+op = "";
+
+%ciclo princpi
+while op != 'n'
+op = input('Deseas seguir calculando las distancias del vector (s/n):' , 's')
+vx=input('dame el valor de la coord en x=')
+vy=input('dame el valor de la coord en y=')
+vector=[vx;vy];
+
+
+%CALCULANDO LOS PARÁMETROS DE CADA CLASE
+
+media1=mean(c1,2);
+media2=mean(C2,2);
+media3=mean(c3,2);
+
+
+%calculando su centroide:
+dist1=norm(media1-vector);
+dist2=norm(media2-vector);
+dist3=norm(media3-vector);
+
+dist_total=[dist1 dist2 dist3]
+
+minimo=min(min(dist_total))
+dato=find(minimo==dist_total)
+
+fprintf('el vector desconocido pertenece a la clase %d\n',dato)
+
+% GRAFICANDO LAS CLASES
+plot(c1(1,:),c1(2,:),'ro','MarkerSize',10,'MarkerFaceColor','r')
+grid on
+hold on
+plot(C2(1,:),C2(2,:),'bo','MarkerSize',10,'MarkerFaceColor','b')
+plot(c3(1,:),c3(2,:),'ko','MarkerSize',10,'MarkerFaceColor','k')
+plot(vector(1,:),vector(2,:),'go','MarkerSize',10,'MarkerFaceColor','g')
+legend('clase1','clase2','clase3', 'vector')
+disp('fin de proceso....')

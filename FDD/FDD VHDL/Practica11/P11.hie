@@ -1,0 +1,5 @@
+P11.vhd #Entity p11_mux 4
+P11.vhd #Architecture p11 p11_mux 10
+P11.vhd #Instance bloque1 mux_8a1 20
+MUX_8-1.vhd #Entity mux_8a1 4
+MUX_8-1.vhd #Architecture amux_8a1 mux_8a1 10

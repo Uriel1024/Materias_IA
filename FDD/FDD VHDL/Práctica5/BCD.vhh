@@ -1,0 +1,15 @@
+ENTITY bcd IS
+    PORT (
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	c : in std_logic  ; 
+	d : in std_logic  ; 
+	f : inout std_logic  ; 
+	g : inout std_logic  ; 
+	h : inout std_logic  ; 
+	i : inout std_logic  ; 
+	j : inout std_logic  ; 
+	k : inout std_logic  ; 
+	l : inout std_logic 
+    ) ;
+END bcd ;

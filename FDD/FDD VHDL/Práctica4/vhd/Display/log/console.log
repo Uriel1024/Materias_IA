@@ -1,0 +1,26 @@
+Design: 12:00 AM, Saturday, October 26, 2024
+Design: Opening design "C:\users\uriel\Documents\FDD VHDL\Display\vhd\Display\Display.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation with file reorder...
+File: C:\users\uriel\Documents\FDD VHDL\Display\vhd\Display.vhd
+Compile Entity "display"
+Compile Architecture "DSMB" of Entity "display"
+Top-Level unit detected
+Entity  =>   display
+Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+12:03 AM, Saturday, October 26, 2024
+Simulation has been initialized
+Selected Top-Level: display (DSMB)
+KERNEL: stopped at time: 100 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped

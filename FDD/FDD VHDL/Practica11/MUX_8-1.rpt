@@ -1,0 +1,43 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  MUX_8-1.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-25pc/pi -a MUX_8-1.vhd -b P11.vhd -u P11.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Fri Jan 10 09:02:20 2025
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\Program Files (x86)\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Program Files (x86)\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Program Files (x86)\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Fri Jan 10 09:02:20 2025
+
+Linking 'C:\Program Files (x86)\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Added entity 'mux_8a1' to library 'work'
+Added architecture 'amux_8a1' to library 'work'
+
+tovif:  No errors.
+

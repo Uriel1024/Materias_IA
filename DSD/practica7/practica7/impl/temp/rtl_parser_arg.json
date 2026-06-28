@@ -1,0 +1,18 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Library" : "work",
+   "Path" : "/home/uriel/dsd/DSDZZZ/practica7/practica7/src/p7.vhd",
+   "Type" : "vhdl"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/home/uriel/dsd/DSDZZZ/practica7/practica7/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

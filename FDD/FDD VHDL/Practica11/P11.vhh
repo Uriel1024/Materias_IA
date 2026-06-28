@@ -1,0 +1,12 @@
+ENTITY p11_mux IS
+    PORT (
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	c : in std_logic  ; 
+	d : in std_logic  ; 
+	x : in std_logic  ; 
+	y : in std_logic  ; 
+	z : in std_logic  ; 
+	f : inout std_logic 
+    ) ;
+END p11_mux ;

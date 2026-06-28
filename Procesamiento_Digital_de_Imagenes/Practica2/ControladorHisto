@@ -1,0 +1,81 @@
+import javax.swing.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import javax.imageio.ImageIO;
+
+public class ControladorImagen {
+
+    private ModeloImagen modelo;
+    private VistaImagen vista;
+
+    private BufferedImage imagen;
+
+    public ControladorImagen(ModeloImagen m, VistaImagen v){
+
+        modelo = m;
+        vista = v;
+
+        init();
+    }
+
+    private void init(){
+
+        vista.btnCargar.addActionListener(e->cargarImagen());
+
+        vista.comboMetodo.addActionListener(e->procesar());
+    }
+
+    private void cargarImagen(){
+
+        try{
+
+            JFileChooser fc = new JFileChooser();
+
+            if(fc.showOpenDialog(vista)==JFileChooser.APPROVE_OPTION){
+
+                imagen = ImageIO.read(fc.getSelectedFile());
+
+                vista.lblOriginal.setIcon(new ImageIcon(imagen));
+
+                procesar();
+            }
+
+        }catch(Exception ex){
+            ex.printStackTrace();
+        }
+    }
+
+    private void procesar(){
+
+        if(imagen==null) return;
+
+        String metodo = (String)vista.comboMetodo.getSelectedItem();
+
+        BufferedImage gris=null;
+
+        if(metodo.equals("YIQ"))
+            gris = modelo.convertirYIQ(imagen);
+
+        if(metodo.equals("HSV"))
+            gris = modelo.convertirHSV(imagen);
+
+        if(metodo.equals("HSI"))
+            gris = modelo.convertirHSI(imagen);
+
+        vista.lblProcesada.setIcon(new ImageIcon(gris));
+
+        int[] hist = modelo.calcularHistograma(gris);
+
+        vista.panelHist.setHistograma(hist);
+
+        int total = gris.getWidth()*gris.getHeight();
+
+        double media = modelo.media(hist,total);
+        double var = modelo.varianza(hist,total,media);
+
+        vista.txtStats.setText(
+                "Media: "+media+"\n"+
+                "Varianza: "+var
+        );
+    }
+}

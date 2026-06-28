@@ -1,0 +1,8 @@
+ENTITY cod IS
+    PORT (
+	e : in std_logic_vector (8 downto 0) ; 
+	s : inout std_logic_vector (2 downto 0) ; 
+	con : in std_logic  ; 
+	y : inout std_logic 
+    ) ;
+END cod ;

@@ -1,0 +1,13 @@
+#En este archivo van todos los requirimientos/dependencias del proyecato
+
+se requieren usar las siguientes librerias de python para el correcto funcionamiento del proyecto 
+
+pandas
+numpy version =  1.23.5 (compatible con yfinance) 
+yfinance 	
+pandas-ta
+scikit-learn
+joblib
+os 
+plotly
+rich
