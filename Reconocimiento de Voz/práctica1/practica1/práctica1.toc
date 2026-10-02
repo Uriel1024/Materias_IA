@@ -1,0 +1,11 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{}%
+\contentsline {section}{\numberline {2}Desarrollo}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Dataset}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Obtención de los coeficientes MFCC de manera manual}{3}{}%
+\contentsline {subsection}{\numberline {2.3}Obtención de los coeficientes MFCC con librosa}{4}{}%
+\contentsline {subsection}{\numberline {2.4}Comparación del primer audio (Audio 1: «Casa»)}{5}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Análisis de resultados y diferencias observadas}{5}{}%
+\contentsline {subsection}{\numberline {2.5}Comparación del segundo audio (Audio 2: «La casa es grande»)}{6}{}%
+\contentsline {subsubsection}{\numberline {2.5.1}Análisis de resultados y diferencias observadas}{6}{}%
+\contentsline {section}{\numberline {3}Conclusiones}{7}{}%

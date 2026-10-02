@@ -1,0 +1,27 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
+\contentsline {section}{\numberline {2}Fundamentos teóricos}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}El problema: dimensionalidad y correlación multivariada}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Idea central del método}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Fundamentos matemáticos}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Representación matricial de los datos}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Media y centrado}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Matriz de covarianza}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Maximización de varianza y eigen-descomposición}{5}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Proporción de varianza explicada}{6}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Proyección y reconstrucción}{6}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Ejemplo numérico ilustrativo}{6}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Algoritmo general de PCA}{8}{section.4}%
+\contentsline {section}{\numberline {5}Caso práctico: aplicación paso a paso}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Planteamiento del problema}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Paso 1: matriz de datos}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Paso 2: media y centrado}{9}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Paso 3: matriz de covarianza}{9}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Paso 4: valores propios}{10}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Paso 5: vectores propios}{10}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Paso 6: varianza explicada}{10}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Paso 7: proyección sobre la componente principal}{11}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Interpretación}{11}{subsection.5.9}%
+\contentsline {section}{\numberline {6}Propiedades, ventajas y limitaciones}{12}{section.6}%
+\contentsline {section}{\numberline {7}Conclusiones}{13}{section.7}%
+\contentsline {section}{Bibliografía}{14}{section.7}%

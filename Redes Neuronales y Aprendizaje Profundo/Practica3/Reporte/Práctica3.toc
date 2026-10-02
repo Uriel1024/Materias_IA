@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {2}Desarrollo}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Actividad 1: Red Neuronal para Análisis de Sentimiento Multiclase}{3}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Arquitectura y Preprocesamiento}{3}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Evaluación Cualitativa ante Muestras no Vistas}{4}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Actividades 2 y 3: Implementación de la Clase \texttt {RedBackpropagationCIFAR}}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Actividades 4 y 5: Exploración de Límites y Reporte de Ejecución sobre CIFAR-10}{5}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Dinámica de Convergencia del Algoritmo}{5}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Análisis de Límites de la Red Densa vs. Porcentajes de Clase}{6}{subsubsection.2.3.2}%
+\contentsline {section}{\numberline {3}Conclusión}{8}{section.3}%
+\contentsline {section}{\numberline {4}Referencias}{9}{section.4}%

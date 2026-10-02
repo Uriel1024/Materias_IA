@@ -1,0 +1,17 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Descripción de los Conjuntos de Datos}{2}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Desarrollo}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Adaptación del código a clases}{3}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Perceptrón multicapa para varias compuertas}{3}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Perceptrón multicapa para clasificación de imágenes en escala de grises}{4}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Perceptrón multicapa para clasificación de imágenes a color}{5}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Módulo 1: Clasificador de Compuertas Lógicas (\texttt {LogicGateClassifier})}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Módulo 2: Clasificación en Escala de Grises (\texttt {TunableFashionMNISTMLP})}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Módulo 3: Optimización para Imágenes a Color (\texttt {OptimizedColorMLP})}{8}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Resultados Obtenidos}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Compuertas Lógicas}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Comparativa en Fashion-MNIST}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Optimización en CIFAR-10}{9}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Conclusiones}{10}{section.4}%
+\contentsline {section}{\numberline {5}Referencias}{11}{section.5}%

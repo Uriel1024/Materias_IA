@@ -1,0 +1,17 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
+\contentsline {section}{\numberline {2}Fundamentos teóricos}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}El problema: dimensionalidad y correlación multivariada}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Idea central del método}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Fundamentos matemáticos}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Representación matricial de los datos}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Media y centrado}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Matriz de covarianza}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Maximización de varianza y eigen-descomposición}{5}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Proporción de varianza explicada}{6}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Proyección y reconstrucción}{6}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Ejemplo numérico ilustrativo}{6}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Algoritmo general de PCA}{8}{section.4}%
+\contentsline {section}{\numberline {5}Propiedades, ventajas y limitaciones}{9}{section.5}%
+\contentsline {section}{\numberline {6}Conclusiones}{10}{section.6}%
+\contentsline {section}{Bibliografía}{11}{section.6}%

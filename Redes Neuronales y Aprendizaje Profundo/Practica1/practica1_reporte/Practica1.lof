@@ -1,0 +1,19 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Tabla de verdad de la compuerta AND.}}{2}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Separabilidad lineal en la compuerta AND.}}{3}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Tabla de verdad de la compuerta OR.}}{3}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Separabilidad lineal en la compuerta OR.}}{3}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Tabla de verdad de la compuerta XOR.}}{4}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Incapacidad de separación lineal simple en la compuerta XOR.}}{4}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Estructura del vector de características de entrada.}}{5}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Distribución y formato tabular del conjunto de datos Iris.}}{6}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Estructura orientada a objetos de la clase perceptrón en TensorFlow.}}{6}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Métodos de inicialización y control de entrenamiento en TensorFlow.}}{7}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Ejecución del entrenamiento con $\eta = 0.5$ y 500 épocas en TensorFlow.}}{7}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Métricas de desempeño (Precision, Recall, F1-Score y Accuracy) para la Prueba 1.}}{8}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Resultados con $\eta = 0.5$ y 50 épocas.}}{8}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Resultados con $\eta = 0.7$ y 5 épocas.}}{9}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Arquitectura y ciclo de entrenamiento orientado a objetos en PyTorch.}}{10}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Resultados de ejecución en PyTorch (3000 épocas, $\eta = 0.1$).}}{11}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Resultados de ejecución en PyTorch (500 épocas, $\eta = 0.5$).}}{12}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Resultados de ejecución en PyTorch (50 épocas, $\eta = 0.7$).}}{13}{}%
